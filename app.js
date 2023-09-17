@@ -13,7 +13,8 @@ const upload = multer({ storage: storage });
 // Replace with your actual Capture Service API endpoint and token
 const CAPTURE_SERVICE_API_ENDPOINT = 'https://na-1-dev.api.opentext.com/capture/cp-rest/v2/';
 const CAPTURE_SERVICE_TOKEN = 'fe8c5b3ed227424f4f7f9aacc74730a57af59b5a2c4208ac835cb31259b4339b7fdf5ce48c81215fb787536c15276cfbed0d9960e0c865c5b613cefa76ca0958';
-
+const STORAGE_SERVICE_API_ENDPOINT = 'https://na-1-dev.api.opentext.com';
+const STORAGE_SERVICE_TOKEN = 'ghec5b3ed227424f4f7f9aaee74730a57af59b5a2c4208ac835cb31259b4339b7fdf5ce48c812uh7b787536c15276cfbed0d9960e0c865c5b6';
 // Define a route for the root URL ("/")
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
